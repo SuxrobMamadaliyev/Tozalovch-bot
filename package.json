@@ -1,0 +1,11 @@
+{
+  "name": "telegram-cleaner-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "gramjs": "^2.26.0",
+    "dotenv": "^16.4.5",
+    "input": "^1.0.1"
+  }
+}
