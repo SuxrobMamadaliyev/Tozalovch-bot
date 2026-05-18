@@ -1,0 +1,19 @@
+services:
+  - type: worker
+    name: tozalovch-bot
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: API_ID
+        sync: false
+      - key: API_HASH
+        sync: false
+      - key: ADMIN_IDS
+        sync: false
+      - key: REQUIRED_CHANNEL
+        sync: false
+      - key: NODE_ENV
+        value: production

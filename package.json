@@ -2,6 +2,13 @@
   "name": "telegram-cleaner-bot",
   "version": "2.0.0",
   "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
     "telegraf": "^4.16.3",
     "gramjs": "^2.26.0",
